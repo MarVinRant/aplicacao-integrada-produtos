@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="360" viewBox="0 0 1050 360">
+  <rect width="1050" height="360" rx="24" fill="#111827"/>
+  <text x="55" y="55" fill="#f3f4f6" font-family="Arial" font-size="28" font-weight="700">Arquitetura integrada</text>
+  <g font-family="Arial" font-size="19" text-anchor="middle">
+    <rect x="65" y="115" width="230" height="120" rx="18" fill="#7c3aed"/><text x="180" y="160" fill="#ede9fe">Streamlit</text><text x="180" y="193" fill="#ddd6fe">Interface + fallback</text>
+    <rect x="410" y="115" width="230" height="120" rx="18" fill="#0369a1"/><text x="525" y="160" fill="#e0f2fe">FastAPI</text><text x="525" y="193" fill="#bae6fd">REST + validação</text>
+    <rect x="755" y="115" width="230" height="120" rx="18" fill="#166534"/><text x="870" y="160" fill="#dcfce7">SQLite</text><text x="870" y="193" fill="#bbf7d0">Dados persistidos</text>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="4" fill="none"><path d="M295 155h115" marker-end="url(#arrow)"/><path d="M640 175h115" marker-end="url(#arrow)"/><path d="M755 205H640" stroke-dasharray="10 8" marker-end="url(#arrow)"/></g>
+  <text x="525" y="290" fill="#94a3b8" font-family="Arial" font-size="17" text-anchor="middle">O cliente tenta a API e usa o banco local quando ela está indisponível</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#cbd5e1"/></marker></defs>
+</svg>
