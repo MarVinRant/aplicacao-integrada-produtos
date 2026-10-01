@@ -4,7 +4,7 @@ Projeto de consolidação da trilha: uma aplicação que combina SQLite, FastAPI
 
 ## Demonstração
 
-🌐 **Aplicação publicada:** será adicionada após o deploy no Streamlit Community Cloud.
+🌐 **Aplicação publicada:** [aplicacao-integrada-produtos](https://aplicacao-integrada-apputos-ewgfqcxnegorwusaclgrew.streamlit.app/)
 
 ![Arquitetura integrada](docs/images/integrated-flow.svg)
 
